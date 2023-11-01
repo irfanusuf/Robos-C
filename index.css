@@ -1,0 +1,23 @@
+/* external css this is a best practice  */
+
+
+.navbar{
+     font-size:  40px;
+  
+     background-color: rgb(50, 54, 54);
+  
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar li {
+    display: flex;
+}
+
+.navbar li a {
+    
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(225, 225, 235);
+}
