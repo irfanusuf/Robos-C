@@ -2,22 +2,72 @@
 
 
 .navbar{
-     font-size:  40px;
-  
-     background-color: rgb(50, 54, 54);
+    height: 70px;
+     background-color: rgba(27, 23, 23, 0.767);
+     display: flex;
+     width: 1600px;
   
 }
-
-.navbar ul{
+/* child selectors  */
+.navbar ul{      
     display: flex;
+    align-items: center;
 }
 .navbar li {
     display: flex;
+    align-items: center;
 }
 
 .navbar li a {
-    
+    font-size: 22px;
     text-decoration: none;
     margin-left: 30px;
     color: rgb(225, 225, 235);
+    align-items: center;
+}
+
+
+
+.main-section {
+
+
+    font-size: 30px;
+}
+
+
+button {
+    background-color: black;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 800px;
+}
+
+
+
+.footer{
+    height: 70px;
+    background-color: rgba(27, 23, 23, 0.767);
+    display: flex;
+width: 1600px;
+
+}
+
+
+.footer li a {
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(225, 225, 235);
+    align-items: center;
+}
+
+
+.footer  ul{      
+    display: flex;
+   
+}
+.footer li {
+    display: flex;
+   
 }
