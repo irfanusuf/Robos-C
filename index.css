@@ -1,6 +1,13 @@
 /* external css this is a best practice  */
 
 
+/* use asterick for global css */
+*{
+    background-color: rgba(127, 255, 212, 0.548);
+}
+    
+
+
 .navbar{
     height: 70px;
      background-color: rgba(27, 23, 23, 0.767);
@@ -35,14 +42,23 @@
 }
 
 
-button {
-    background-color: black;
-    font-size: 16px;
-    color: aliceblue;
-    padding: 10px;
+.btn{
+    background-color: rgb(19, 49, 182);
+    padding: 10px 20px;
+    margin: 10px 0px;
     margin-left: 800px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+
 }
 
+
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
 
 
 .footer{
@@ -71,3 +87,66 @@ width: 1600px;
     display: flex;
    
 }
+
+
+.register{
+
+    width: 30%;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px 100px ;
+}
+
+
+.form-label{
+    font-size: 22px;
+    
+    
+}
+
+.form-input{
+    width: 430px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-family: sans-serif;
+}
+
+
+
+.form-input-email{
+    width: 430px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-family: sans-serif;
+}
+
+
+
+
+button{
+    background-color: blue;
+    color: azure;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-top: 30px;
+ 
+}
+
+
+.text{
+
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
